@@ -25,9 +25,6 @@ mvn exec:java -Dexec.mainClass="com.shadowfox.contacts.ContactManager"
 mvn exec:java -Dexec.mainClass="com.shadowfox.student.StudentInfoSystemGUI"
 ```
 
-(Add the `exec-maven-plugin` to `pom.xml` if it isn't already configured on
-your machine, or just use Option B below — it needs no plugin at all.)
-
 ### Option B — Plain `javac` / `java` (no Maven needed)
 
 From the project root:
