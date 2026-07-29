@@ -25,6 +25,8 @@ about for financial/scientific calculations.
   rounding on division and square roots. This is the standard fix recommended
   for any app that touches money or precise scientific values.
 
+I want to come up honestly and admit that at some instances I have used some help form various sources.
+
 ## Other notes
 
 - Used `try/catch` around all user input parsing (`NumberFormatException`,
