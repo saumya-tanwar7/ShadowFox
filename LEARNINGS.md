@@ -35,12 +35,3 @@ about for financial/scientific calculations.
 - Kept each task in its own package (`com.shadowfox.calculator`,
   `com.shadowfox.contacts`, `com.shadowfox.student`) to mirror how a real
   multi-feature codebase is organized.
-
-## Possible next steps (Tier 1/2 upgrades from the brief)
-
-- Calculator: build a Swing/JavaFX front end over the existing logic;
-  add expression parsing (`5 + 3 * 2`) with proper operator precedence.
-- Contact Manager: move from console to a JavaFX `TableView`; add
-  vCard (`.vcf`) export/import.
-- Student System: add GPA auto-calculation with PDF export (iText), and a
-  pass/fail pie chart using `javafx.scene.chart`.
