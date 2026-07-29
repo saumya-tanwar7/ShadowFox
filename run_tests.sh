@@ -1,7 +1,3 @@
-#!/usr/bin/env bash
-#
-# run_tests.sh — automated smoke tests for the ShadowFox beginner tasks.
-#
 # What it does:
 #   1. Compiles all Java source files into ./out
 #   2. Feeds scripted input into the Calculator and Contact Manager
@@ -9,13 +5,13 @@
 #   3. Prints PASS/FAIL for each check and a final summary.
 #
 # The Student Information System is a GUI (Swing) and can't be driven this
-# way from a terminal — see the "Manual GUI checklist" printed at the end.
+# way from a terminal — for that see the "Manual GUI checklist" printed at the end.
 #
 # Usage:
-#   chmod +x run_tests.sh   (only needed once)
+#   chmod +x run_tests.sh   (only required once)
 #   ./run_tests.sh
 
-set -u  # treat unset variables as errors, but don't exit on non-zero (we check results ourselves)
+set -u
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$PROJECT_ROOT"
