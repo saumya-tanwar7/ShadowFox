@@ -1,7 +1,6 @@
 # ShadowFox Java Internship — Beginner Level (Foundations)
 
-All three beginner tasks, completed as the "extra credit" option (the brief only
-requires 2 of 3).
+I have done all the 3 tasks although only 2 were necessary to be done.
 
 | # | Task | Package | Type |
 |---|------|---------|------|
