@@ -13,8 +13,8 @@ import java.util.regex.Pattern;
  * Engineering notes:
  *  - ArrayList is used (not LinkedList) because contacts are searched/read
  *    far more often than inserted/removed from the middle of the list.
- *  - Duplicate phone numbers are rejected on add.
- *  - Search is case-insensitive ("John" also matches "john").
+ *  - Duplicate phone numbers are rejected on "add" operation.
+ *  - Search is case-insensitive.
  *  - Email format is validated with a regex before a contact is accepted.
  */
 public class ContactManager {
