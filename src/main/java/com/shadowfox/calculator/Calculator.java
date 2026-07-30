@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Task 1: Enhanced Console-Based Calculator
  *
  * Supports:
- *  - Basic arithmetic (+, -, *, /) using BigDecimal for precision-safe math
+ *  - Basic arithmetic (+, -, *, /) using BigDecimal for accurate results
  *  - Scientific operations (square root, exponentiation)
  *  - Unit conversions (temperature, currency)
  *
