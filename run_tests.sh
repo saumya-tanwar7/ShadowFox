@@ -1,3 +1,4 @@
+#**This script is generated for an easy and quick test run of all the tasks**
 # What it does:
 #   1. Compiles all Java source files into ./out
 #   2. Feeds scripted input into the Calculator and Contact Manager
