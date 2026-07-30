@@ -54,6 +54,8 @@ ShadowFox-Internship/
 ├── pom.xml
 ├── README.md
 ├── LEARNINGS.md
+|-- .gitignore
+|-- run_tests.sh
 └── src/main/java/com/shadowfox/
     ├── calculator/Calculator.java
     ├── contacts/
