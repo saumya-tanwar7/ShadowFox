@@ -1,10 +1,6 @@
 package com.shadowfox.contacts;
 
-/**
- * Plain Old Java Object representing a single contact.
- * Fields are private (encapsulation) and only reachable through
- * getters/setters, so validation always happens in one place.
- */
+
 public class Contact {
 
     private String name;
