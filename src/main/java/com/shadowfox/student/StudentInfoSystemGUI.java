@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Task 3: Student Information System with a GUI (Swing).
+ * Task 3: Student Information System with Swing.
  *
- * Architecture (MVC-ish):
+ * Architecture:
  *  - Model:      the `students` list of Student objects + the JTable's
  *                DefaultTableModel that mirrors it for display.
  *  - View:       the JTable, text fields, and buttons built in the constructor.
