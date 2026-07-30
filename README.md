@@ -1,4 +1,4 @@
-# ShadowFox Java Internship — Beginner Level (Foundations)
+# ShadowFox Java Development Internship — Beginner Level
 
 I have done all the 3 tasks although only 2 were necessary to be done.
 
@@ -8,40 +8,6 @@ I have done all the 3 tasks although only 2 were necessary to be done.
 | 2 | Contact Management System | `com.shadowfox.contacts` | Console |
 | 3 | Student Information System | `com.shadowfox.student` | GUI (Swing) |
 
-## Requirements
-
-- Java 17 or later (JDK, not just JRE — you need `javac`).
-- No external dependencies. Everything uses the standard library only
-  (`java.math.BigDecimal`, `java.util.regex`, `javax.swing`).
-
-## How to run
-
-### Option A — Maven
-
-```bash
-mvn compile
-mvn exec:java -Dexec.mainClass="com.shadowfox.calculator.Calculator"
-mvn exec:java -Dexec.mainClass="com.shadowfox.contacts.ContactManager"
-mvn exec:java -Dexec.mainClass="com.shadowfox.student.StudentInfoSystemGUI"
-```
-
-### Option B — Plain `javac` / `java` (no Maven needed)
-
-From the project root:
-
-```bash
-# Compile everything
-javac -d out $(find src -name "*.java")
-
-# Task 1: Calculator
-java -cp out com.shadowfox.calculator.Calculator
-
-# Task 2: Contact Manager
-java -cp out com.shadowfox.contacts.ContactManager
-
-# Task 3: Student Information System (opens a window)
-java -cp out com.shadowfox.student.StudentInfoSystemGUI
-```
 
 ## Task 1 — Enhanced Console Calculator
 
@@ -79,6 +45,7 @@ java -cp out com.shadowfox.student.StudentInfoSystemGUI
 - Delete requires a confirmation dialog.
 - Layout uses `BorderLayout`/`GridBagLayout` so buttons stay visible and
   usable when the window is resized.
+
 
 ## Project structure
 
