@@ -50,12 +50,11 @@ I have done all the 3 tasks although only 2 were necessary to be done.
 ## Project structure
 
 ```
-ShadowFox-Internship/
-├── pom.xml
+ShadowFox/
+├── pom.xml            
 ├── README.md
 ├── LEARNINGS.md
-|-- .gitignore
-|-- run_tests.sh
+├── run_tests.sh
 └── src/main/java/com/shadowfox/
     ├── calculator/Calculator.java
     ├── contacts/
